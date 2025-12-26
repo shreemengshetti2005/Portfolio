@@ -50,13 +50,13 @@ function HeroSection() {
             >
               <SiCodechef size={30} />
             </Link>
-            <Link
+            {/* <Link
               href={personalData.codeforces}
               target="_blank"
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <SiCodeforces size={30} />
-            </Link>
+            </Link> */}
           </div>
 
           <div className="flex items-center gap-3">

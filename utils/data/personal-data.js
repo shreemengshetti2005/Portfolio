@@ -1,6 +1,6 @@
 export const personalData = {
   name: "Shree Mengshetti",
-  profile: "/profile.png",
+  profile: "/profile2.png",
   designation: "Computer Engineering Student",
   description:
     "I’m Shree Mengshetti, a passionate and enthusiastic programmer who enjoys building real world software systems. I’m a quick learner with a strong self learning attitude and a deep interest in problem solving. I like exploring new technologies and working on complex applications, especially in areas involving AI, machine learning, and intelligent workflows. I enjoy designing and building systems that solve practical problems and create real impact. I’m always open to opportunities that align with my skills, curiosity, and interest in building meaningful technology. ",
