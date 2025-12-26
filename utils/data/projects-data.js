@@ -1,42 +1,56 @@
 export const projectsData = [
-    {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        role: 'Full Stack Developer',
-    }
-];
+  {
+    id: 1,
+    name: "AI Document Assistant",
+    description:
+      "I built an AI-powered document intelligence platform where users can upload multiple PDFs and interact with them through three core features: search, podcast, and insights. For easy navigation, I combined hierarchy-based rules with a Random Forest model to automatically detect document titles and subheadings (H1, H2, H3). The documents are chunked, converted into embeddings using Sentence Transformers, and stored in ChromaDB. The search feature supports both semantic and keyword-based retrieval and returns the top relevant results from uploaded PDFs. The podcast feature converts document summaries into natural audio using Google Cloud Text-to-Speech, while the insights feature highlights and summarizes important information from the documents.",
+    tools: [
+      "Python",
+      "LangChain",
+      "Hugging Face",
+      "ChromaDB",
+      "PyMuPDF",
+      "Google Cloud TTS",
+      "Go",
+      "React.js",
+    ],
+    role: "AI/ML Developer",
 
+    code: "",
+    demo: "",
+  },
+  {
+    id: 4,
+    name: "NirikshanSahAI – AI Institute Inspection System",
+    description:
+      "I worked on an AI-driven inspection system designed to automate institutional audits and compliance checks. The system uses OCR, LLMs, and YOLOv8 to inspect documents and physical infrastructure, automating nearly 90% of manual inspection tasks. A scalable ML pipeline was built to generate real-time compliance reports in under 60 seconds by analyzing inspection data and regulatory documents. The platform streamlines inspections, surfaces actionable insights, and significantly improves efficiency for large organizations.",
+    tools: ["Python", "YOLOv8", "OCR", "Hugging Face", "LLMs", "PyTorch"],
+    role: "AI/ML Developer",
+    code: "",
+    demo: "",
+  },
+  {
+    id: 3,
+    name: "Sentiment Analysis System",
+    description:
+      "I built a sentiment analysis system that classifies Amazon customer reviews into positive, neutral, or negative categories. The model was fine-tuned using RoBERTa on labeled review data to accurately capture customer opinions and sentiment patterns. This system helps in understanding user feedback at scale and supports data-driven decision-making by analyzing large volumes of textual reviews.",
+    tools: ["Python", "Hugging Face", "RoBERTa", "PyTorch", "Scikit-learn"],
+    role: "ML Developer (NLP)",
+
+    code: "",
+    demo: "",
+  },
+  //   {
+  //     id: 4,
+  //     name: "Newsroom Management",
+  //     description:
+  //       "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
+  //     tools: ["NextJS", "Material UI", "Redux", "Sun Editor", "Calendar"],
+  //     code: "",
+  //     demo: "",
+  //     role: "Full Stack Developer",
+  //   },
+];
 
 // Do not remove any property.
 // Leave it blank instead as shown below

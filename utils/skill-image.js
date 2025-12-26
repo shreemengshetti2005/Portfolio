@@ -72,6 +72,7 @@ import vue from '../app/assets/svg/skills/vue.svg';
 import vuetifyjs from '../app/assets/svg/skills/vuetifyjs.svg';
 import webix from '../app/assets/svg/skills/webix.svg';
 import wolframalpha from '../app/assets/svg/skills/wolframalpha.svg';
+import langchain from '../app/assets/svg/skills/langchain.svg';
 import wordpress from '../app/assets/svg/skills/wordpress.svg';
 
 import pandas from '../app/assets/svg/skills/pandas.svg';
@@ -200,6 +201,8 @@ export const skillsImage = (skill) => {
       return premierepro;
     case 'pytorch':
       return pytorch;
+    case 'langchain':
+      return langchain;
     case 'selenium':
       return selenium;
     case 'strapi':

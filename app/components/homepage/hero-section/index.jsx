@@ -101,6 +101,9 @@ function HeroSection() {
                 <span className="text-gray-400">:</span>
               </div>
               <div>
+                <span className="ml-4 "></span>
+              </div>
+              <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-pink-500">def</span>
                 <span className="mr-2 text-green-400">__init__</span>
                 <span className="text-gray-400">(</span>
