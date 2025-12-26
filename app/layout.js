@@ -13,6 +13,9 @@ export const metadata = {
   title: "Portfolio of Shree Mengshetti - Computer Engineering Student",
   description:
     "This is the portfolio of Shree Mengshetti. I am a Computer Engineering student and a passionate learner. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+  icons: {
+    icon: "data:,",
+  },
 };
 
 export default function RootLayout({ children }) {
