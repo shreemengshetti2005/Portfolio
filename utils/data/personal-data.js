@@ -1,11 +1,11 @@
 export const personalData = {
-  name: "shree mengshetti",
+  name: "Shree Mengshetti",
   profile: "/profile.png",
-  designation: "Software Developer",
+  designation: "Computer Engineering Student",
   description:
-    "My name is Shree Mengshetti. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+    "I’m Shree Mengshetti, a passionate and enthusiastic programmer who enjoys building real world software systems. I’m a quick learner with a strong self learning attitude and a deep interest in problem solving. I like exploring new technologies and working on complex applications, especially in areas involving AI, machine learning, and intelligent workflows. I enjoy designing and building systems that solve practical problems and create real impact. I’m always open to opportunities that align with my skills, curiosity, and interest in building meaningful technology. ",
   email: "shreemengshetti12@gmail.com",
-  phone: "+8801608797655",
+  phone: "+91 7710860509",
   address: "Navi Mumbai, Maharashtra, India",
   github: "https://github.com/shreemengshetti2005",
   linkedIn: "https://www.linkedin.com/in/shree-mengshetti-0a91b0217/",
